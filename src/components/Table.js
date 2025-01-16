@@ -247,7 +247,14 @@ const Table = () => {
                       <input
                         type="text"
                         defaultValue={row.data[column.id]}
-                        onBlur={() => setEditingCell(null)}
+                        onBlur={() =>
+                          saveCell(row.id, column.id, row.data[column.id])
+                        }
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') {
+                            saveCell(row.id, column.id, e.target.value);
+                          }
+                        }}
                         style={{ width: '50%' }}
                       />
                     ) : (
