@@ -95,7 +95,7 @@ input:checked + .slider:before {
 
   height: 91%; /* Full height */
   width: 40px; /* Set a width to make the panel visible */
-  border-right: 2px solid #ccc;
+  border-right: 1px solid #e2e2e3;
   position: fixed;
   display: flex;
   flex-direction: column;
