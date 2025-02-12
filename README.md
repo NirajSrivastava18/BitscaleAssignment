@@ -1,11 +1,11 @@
-# BitScale.ai Assignment
+# Dynamic Table In ReactJS
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/NirajSrivastava18/BitscaleAssignment.git
+   git clone https://github.com/NirajSrivastava18/Dynamic_table.git
    ```
 
 2. Install dependencies:
